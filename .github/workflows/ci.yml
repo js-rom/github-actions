@@ -13,7 +13,7 @@ jobs:
         with:
           java-version: 21
       - name: Unit & Integration Tests
-        run: mvn -B verify # -B: --batch-mode
+        run: mvn -e verify # -B: --batch-mode
       - name: Sonar
         if: success() # always() failure() success()
         run: >
