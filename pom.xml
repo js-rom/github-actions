@@ -13,7 +13,7 @@
     </parent>
 
     <artifactId>github-actions</artifactId>
-    <groupId>js-rom</groupId>
+    <groupId>es.upm.miw.iwvg_devops</groupId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -42,7 +42,7 @@
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>3.1.2</maven-failsafe-plugin.version>
         <!-- coverage report -->
-        <jacoco.version>0.8.10</jacoco.version>
+        <jacoco.version>0.8.12</jacoco.version>
         <!-- OpenAPI -->
         <springdoc-openapi-starter-webflux-ui.version>2.1.0</springdoc-openapi-starter-webflux-ui.version>
     </properties>
