@@ -17,7 +17,7 @@ jobs:
       - name: Sonar
         if: success() # always() failure() success()
         run: >
-          mvn -e verify -DskipTests sonar:sonar
+          mvn -B verify -DskipTests sonar:sonar
           -Dsonar.projectKey=js-rom_github-actions
           -Dsonar.organization=js-rom
           -Dsonar.host.url=https://sonarcloud.io
